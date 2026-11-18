@@ -1,0 +1,35 @@
+{
+  "name": "omp-plugin-dream-rsi",
+  "version": "0.1.0",
+  "description": "DREAM-RSI recursive self-improvement meta-exploration harness plugin for Oh My Pi",
+  "type": "module",
+  "omp": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@oh-my-pi/pi-coding-agent": ">=18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@oh-my-pi/pi-coding-agent": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "@oh-my-pi/pi-coding-agent": "^18.22.0"
+  },
+  "scripts": {
+    "typecheck": "tsc -p ."
+  },
+  "files": [
+    "src"
+  ]
+}
