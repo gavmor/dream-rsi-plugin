@@ -34,5 +34,6 @@
   },
   "files": [
     "src"
-  ]
+  ],
+  "packageManager": "bun@1.4.0"
 }
